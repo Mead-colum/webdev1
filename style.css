@@ -1,0 +1,73 @@
+*{
+    margin: auto 0;
+    padding:0;
+}
+:root{
+--backg: #0e0e0dfd;
+--sect: #010a229d;
+--textun: #19647E;
+--textdo: #1C464D;
+}
+nav{
+    color: var(--textun);
+    background-color: var(--sect);
+    width: 100%;
+}
+
+a{
+    text-align: right;
+}
+
+a:link{
+    color: var(--textun);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    animation: rainbow .6s  infinite;
+
+}
+img{
+    width: 25%;
+}
+
+
+.CenTex{
+    background-color: var(--backg);
+    color: var(--textun);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact;
+    font-size: larger;
+
+}
+
+@keyframes rainbow{
+
+0%{
+    color:red;
+}
+20%{
+    color: orange;
+}
+40%{
+    color: yellow;
+}
+60%{
+    color: green;
+}
+80%{
+    color: blue;
+}
+90%{
+    color: indigo;
+}
+100%{
+    color: violet;
+}
+
+}
+
