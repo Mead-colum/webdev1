@@ -80,12 +80,11 @@ li a:hover{
 .projcolum{
     color: var(--textun);
     font-size: larger;
-
     width: 40%;
 }
 
 .midcolum{
-    color: var(--textun);
+    color: white;
     font-size: larger;
     border: var(--textdo) dashed 1px;
     width: 20%;
