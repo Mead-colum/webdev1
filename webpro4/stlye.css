@@ -1,12 +1,39 @@
 * {
-    background-color: #E76F51;
+    margin: 0 auto;
     box-sizing: border-box;
   }
+
+  nav {   
+    background-color: black;
+    width: 100%;    
+    text-align: center;
+    
+}
+
+nav,a{
+    color: white;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Courier New';
+    text-decoration: none;
+}
+
+nav a:hover{
+    animation: rainbowb .6s  infinite;
+
+}
+
+
   @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false
   }
+
+  body{
+    background-color: #E76F51;
+  }
+
   h1 {
     color: #39304A;
     font-family: system-ui;
@@ -120,6 +147,33 @@
     to{--num: 100;}
     100%{color: #096B72;}
   }
+  
+  @keyframes rainbowb{
+
+    0%{
+        background-color:red;
+    }
+    20%{
+        background-color: orange;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: indigo;
+    }
+    100%{
+        background-color: violet;
+    }
+    
+    }
+
   
   
   
