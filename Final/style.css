@@ -1,35 +1,104 @@
-*{
+*{  
     box-sizing: border-box;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 nav {   
-    background-color: black;
+    background-color: var(--co-bg);
     width: 100%;    
     text-align: center;
-    
+    top: 0;
+    position: sticky;
 }
 
 nav,a{
     color: white;
     padding: 5px;
-    text-align: left;
+    text-align: center;
     font-family: 'Courier New';
     text-decoration: none;
 }
 
 nav a:hover{
     animation: rainbowb .6s  infinite;
-
 }
 
+.topsect{
+    height: 250px;
+    width: 100%;
+    
+    
+}
 
+.bottomsection{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    width: 100%;
+    border: solid #15151e ;
+}
 
+.botsectR{
+      
+    width: 100%;
+    color: var(--co-wo);
+    background-color: var(--co-bg);
+}
+
+.botsectL{
+     
+    width: 100%;
+    color: var(--co-wo);
+    background-color: var(--co-bg2);
+}
 
 body{
     background-image: url("https://th.bing.com/th/id/R.486abfae38e40e5407b4a526be1b65a2?rik=s6scZoX17lH4Pw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKIMGLDT.jpg&ehk=4FeBj3rLTeKYYRPitoRcAmPvGf12D8d8K3bpbAf0LkQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;   
+
+}
+ 
+header {
+    padding-top: 5rem;
+  
 }
 
+:root {
+  --co-bg: #15151e;
+  --co-bg2: #1c1c27;
+  --co-wo: #ffffff;
+  --co-sec: #fb9137;  
+  --co-back: #0e65b2;
+} 
+
+h3 {
+  color: var(--co-sec); 
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 4rem 0;
+  
+}
+
+.Gobacktop {
+  position: fixed;
+  background-color: var(--co-back);
+  color: var(--co-wo);
+  bottom: 0;
+  right: 0;
+  padding: .7rem;
+  text-align: center;
+  margin: .5rem;
+  border-radius: 25%;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+}
 
 
 
