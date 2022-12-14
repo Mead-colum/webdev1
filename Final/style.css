@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+nav {   
+    background-color: black;
+    width: 100%;    
+    text-align: center;
+    
+}
+
+nav,a{
+    color: white;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Courier New';
+    text-decoration: none;
+}
+
+nav a:hover{
+    animation: rainbowb .6s  infinite;
+
+}
+
+
+
+
+body{
+    background-image: url("https://th.bing.com/th/id/R.486abfae38e40e5407b4a526be1b65a2?rik=s6scZoX17lH4Pw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKIMGLDT.jpg&ehk=4FeBj3rLTeKYYRPitoRcAmPvGf12D8d8K3bpbAf0LkQ%3d&risl=&pid=ImgRaw&r=0");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rainbowb{
+
+    0%{
+        background-color:red;
+    }
+    20%{
+        background-color: orange;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: green;
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: indigo;
+    }
+    100%{
+        background-color: violet;
+    }
+    
+    }
+
+  
