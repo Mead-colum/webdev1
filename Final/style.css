@@ -24,45 +24,61 @@ nav a:hover{
     animation: rainbowb .6s  infinite;
 }
 
+section a{
+
+    color: var(--co-back);
+}
+
 .topsect{
-    height: 250px;
-    width: 100%;
-    
+    height: 20rem;
+    max-width: 75%;
+    font-size: 200%;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    color: var(--co-sec);
+    border: dashed #fb9137;
+    border-radius: 2rem;
     
 }
 
 .bottomsection{
+    
     display: flex;
     flex-direction: row-reverse;
     padding: 5px;
-    width: 100%;
-    border: solid #15151e ;
+    width: 80%;
+    
 }
 
 .botsectR{
-      
-    width: 100%;
+    padding: 5px;
+    width: 125%;
     color: var(--co-wo);
     background-color: var(--co-bg);
 }
 
 .botsectL{
-     
-    width: 100%;
+    font-size: 150%;  
+    width: 75%;
     color: var(--co-wo);
-    background-color: var(--co-bg2);
+    background-color: var(--co-bg);
+}
+
+section{
+    font-size: 130%;
 }
 
 body{
     background-image: url("https://th.bing.com/th/id/R.486abfae38e40e5407b4a526be1b65a2?rik=s6scZoX17lH4Pw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKIMGLDT.jpg&ehk=4FeBj3rLTeKYYRPitoRcAmPvGf12D8d8K3bpbAf0LkQ%3d&risl=&pid=ImgRaw&r=0");
     background-size: cover;   
-
+    
 }
  
-header {
-    padding-top: 5rem;
-  
-}
+
 
 :root {
   --co-bg: #15151e;
@@ -72,15 +88,34 @@ header {
   --co-back: #0e65b2;
 } 
 
-h3 {
-  color: var(--co-sec); 
+h1{
+    padding-bottom: 1rem;
 }
+
+h3 {
+   
+    color: var(--co-sec); 
+}
+
+.topsect img{
+    
+    width: 50%;
+    height: 140%;
+    animation: alternate dance .8s infinite ease-in-out;
+    left: 0;
+}
+
 
 img {
   width: 100%;
   display: block;
   margin: 4rem 0;
-  
+  max-height: 50rem;
+}
+
+.botsectL img{
+    width: 100%;
+    max-height: 25rem
 }
 
 .Gobacktop {
@@ -96,8 +131,24 @@ img {
 }
 
 footer {
+    padding: 2rem;
   text-align: center;
   bottom: 0;
+}
+
+@keyframes dance {
+
+from{
+
+    transform: rotatez(15deg);
+    
+}
+
+to{
+ 
+    transform: rotatez(-15deg);
+}
+
 }
 
 
